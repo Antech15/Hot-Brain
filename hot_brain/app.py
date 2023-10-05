@@ -6,12 +6,12 @@ import datetime
 import bcrypt
 
 
-from db_con import get_db_instance, get_db
+#from db_con import get_db_instance, get_db
 
 app = Flask(__name__, static_url_path="/static")
 FlaskJSON(app)
 
-global_db_con = get_db()
+#global_db_con = get_db()
 
 @app.route('/') #endpoint
 def index():
