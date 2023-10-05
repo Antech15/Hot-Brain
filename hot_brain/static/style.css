@@ -1,0 +1,38 @@
+.desktop {
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-group-wrapper {
+    background-color: #1e1e1e;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    width: 626px;
+    height: 210px;
+    top: 221px;
+    left: 440px;
+  }
+  
+  .desktop .vector {
+    position: absolute;
+    width: 1px;
+    height: 44px;
+    top: 0;
+    left: 312px;
+  }
+  
+  .desktop .group {
+    position: absolute;
+    width: 626px;
+    height: 166px;
+    top: 44px;
+    left: 0;
+  }
+  
