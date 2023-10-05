@@ -2,7 +2,7 @@ import psycopg2
 
 
 def get_db():
-    return psycopg2.connect(host="localhost", dbname="postgres" , user="loki", password="4prez")
+    return psycopg2.connect(host="localhost", dbname="postgres" , user="postgres", password="postgres")
 
 def get_db_instance():  
     db  = get_db()
