@@ -31,7 +31,10 @@
     width: 418px;
     height: 43px;
     top: 280px;
-    left: 565px;
+    left: 585px;
+
+    color: #fff;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .desktop .overlap-group-wrapper {
